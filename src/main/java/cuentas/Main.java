@@ -1,17 +1,20 @@
 package cuentas;
-
-public class Main {
 /**
- * Metodo main
- * @param args 
+ * Clase principal .
  */
+public class Main {
+    /**
+     * Método de entrada de la aplicación.
+     * @param args Argumentos
+     */
     public static void main(String[] args) {
         operativa_cuenta(5750);
     }
-/**
- * metodo para crear un objeto de la clase CCuenta
- * @param cantidad 
- */
+    /**
+     * Realiza operaciones de prueba sobre una cuenta, como consultar saldo, 
+     * retirar e ingresar dinero.
+     * @param cantidad parametro float
+     */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;

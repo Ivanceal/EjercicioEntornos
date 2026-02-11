@@ -2,7 +2,7 @@ package cuentas;
 
 public class CCuenta {
 
-    /**rtyr
+    /**
      * @return el nombre de la cuenta
      */
     public String getNombre() {
@@ -18,6 +18,7 @@ public class CCuenta {
 
     /**
      * @return la cuenta
+     */
     public String getCuenta() {
         return cuenta;
     }
