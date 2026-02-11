@@ -1,11 +1,17 @@
 package cuentas;
 
 public class Main {
-
+/**
+ * Metodo main
+ * @param args 
+ */
     public static void main(String[] args) {
         operativa_cuenta(5750);
     }
-
+/**
+ * metodo para crear un objeto de la clase CCuenta
+ * @param cantidad 
+ */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
